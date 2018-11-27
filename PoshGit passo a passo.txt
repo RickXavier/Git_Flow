@@ -3,5 +3,5 @@ Instalar o Poshgit pelo Chocolatey -> choco install poshgit
 Baixar fo console2f
 Rodar no powershell - Sft-ExecutionPolicfy Unrestricted -Scope Process
 Setar no settings do console2 - Shell (caminho do exe do powershell) e startupdir(Diretorio do projeto)
-Rodar no console2 como adm fdsf- Set-ExecutionPolicy Unrestricted  sdfdsf
+Rodar no console2 como adm fdsf- Set-ExecutionPolicy Unrestricted 
 dsfdsf
