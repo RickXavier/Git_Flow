@@ -1,0 +1,30 @@
+﻿git clone https://github.com/RickXavier/Git_Flow.git
+
+git checkout -b feature/{numero da feature}
+
+git push -u origin feature/{numero da feature}
+
+git commit -am "Mensagem do commit"
+
+git pull origin
+
+git push
+
+git checkout dsv
+
+git pull
+
+git merge feature/{numero da feature} ou fazer o rebase
+
+Se não der conflito:
+Fazer o build para saber se nada quebrou com o merge
+git push
+
+Se der conflito:
+git mergetool
+(Isso irá abrir a ferramenta padrão do git - No caso iremos setar o KDiff3 conforme configuração abaixo)
+Resolver os conflitos e fazer o build para saber se nada quebrou com o merge
+git commit -am "Merge com feature-{numero da feature}"
+
+Finally:
+git branch -d feature-{numero da feature}
